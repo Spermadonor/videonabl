@@ -1,0 +1,901 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"ri",
+				"relative"
+			],
+			[
+				"mi",
+				"mini-camera.jpg\tw:200 h:211"
+			],
+			[
+				"la",
+				"letter-spacing"
+			],
+			[
+				"sexual",
+				"sexual_preferences"
+			],
+			[
+				"conte",
+				"container"
+			],
+			[
+				"flex-",
+				"flex-wrap"
+			],
+			[
+				"td",
+				"text-decoration"
+			],
+			[
+				"margin-",
+				"margin-bottom"
+			],
+			[
+				"te",
+				"text-align\t(cabinet_copy.pug)"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"hei",
+				"height_block"
+			],
+			[
+				"ha",
+				"handlerUp"
+			],
+			[
+				"remove",
+				"removeAttribute\t(name?: string) => void"
+			],
+			[
+				"cla",
+				"classList"
+			],
+			[
+				"do",
+				"down_active"
+			],
+			[
+				"po",
+				"position\t(code.js)"
+			],
+			[
+				"he",
+				"height_block"
+			],
+			[
+				"down",
+				"down_block"
+			],
+			[
+				"co",
+				"textContent\tstring"
+			],
+			[
+				"x",
+				"xs"
+			],
+			[
+				"scro",
+				"scrollTo"
+			],
+			[
+				"size-",
+				"size-sm"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"lo",
+				"logo_wrap"
+			],
+			[
+				"tra",
+				"translateY"
+			],
+			[
+				"ro",
+				"row-flex"
+			],
+			[
+				"ju",
+				"justify-content"
+			],
+			[
+				"check",
+				"checkbox\t(index.pug)"
+			],
+			[
+				"disable",
+				"disabled\t(main.js)"
+			],
+			[
+				"place",
+				"placeholder\t(index.pug)"
+			],
+			[
+				"dowl",
+				"dowl-ank"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"flex",
+				"flex-end"
+			],
+			[
+				"mb",
+				"margin-bottom"
+			],
+			[
+				"m-b",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"FLE",
+				"flex-wrap"
+			],
+			[
+				"SPA",
+				"space-between"
+			],
+			[
+				"ex",
+				"extra-large\t(mixin.styl)"
+			],
+			[
+				"extr",
+				"extra-large\t(mixin.styl)"
+			],
+			[
+				"ow",
+				"overflow"
+			],
+			[
+				"pla",
+				"plaska.png\tw:578 h:751"
+			],
+			[
+				"ra",
+				"radiobtnactive.svg"
+			],
+			[
+				"cont",
+				"content\t(index.pug)"
+			],
+			[
+				"con",
+				"content\t(index.pug)"
+			],
+			[
+				"to",
+				"toggleClass"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"inner",
+				"inner-block"
+			],
+			[
+				"inn",
+				"inline-block"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"b",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"ext",
+				"extra-small"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"fl",
+				"flex-wrap"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"bg",
+				"background-color"
+			],
+			[
+				"anketa",
+				"anketa__info"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"extra",
+				"extra-large"
+			],
+			[
+				"btn",
+				"btn_gal.png\tw:36 h:36"
+			],
+			[
+				"btn_",
+				"btn._down.png\tw:36 h:36"
+			],
+			[
+				"str",
+				"strTb"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"fo",
+				"font-weight\t(font.css)"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"sc",
+				"screen\t(index_page.htm)"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"hidde",
+				"hidden-xs"
+			],
+			[
+				"clea",
+				"clearInterval\t(intervalID: number)"
+			],
+			[
+				"ne",
+				"nextArrow\t(index.js)"
+			],
+			[
+				"prev",
+				"prevArrow\t(index.js)"
+			],
+			[
+				"sa",
+				"sans-serif"
+			],
+			[
+				"next",
+				"nextArrow\t(README.markdown)"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"padding",
+				"padding-right\tproperty"
+			],
+			[
+				"erro",
+				"errorElem"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"slick",
+				"slick-active\t(slick.js)"
+			],
+			[
+				"fa",
+				"favorite__nav"
+			],
+			[
+				"d",
+				"diski.png\tw:77 h:75"
+			],
+			[
+				"l",
+				"lang"
+			],
+			[
+				"col",
+				"colspan"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"crea",
+				"createElement\t(tagName: \"a\") => HTMLAnchorElement"
+			],
+			[
+				"oter",
+				"other_brend"
+			],
+			[
+				"Поч",
+				"Почта"
+			],
+			[
+				"html",
+				"htmlspecialchars"
+			],
+			[
+				"paddng",
+				"padding-right"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"block",
+				"block_video_h"
+			],
+			[
+				"sea",
+				"search.png\tw:24 h:25"
+			],
+			[
+				"blo",
+				"block_title\t(index.pug)"
+			],
+			[
+				"img_",
+				"img_bg"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"tv",
+				"twitter-logo-w.svg"
+			],
+			[
+				"block_",
+				"block_title"
+			],
+			[
+				"order",
+				"order-1\t(index.pug)"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"padi",
+				"padding-left"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"me",
+				"menu.svg"
+			],
+			[
+				"dat",
+				"datepicker"
+			],
+			[
+				"inline",
+				"inline-block\t(fullcalendar.css)"
+			],
+			[
+				"line",
+				"line-height\t(slick-theme.css)"
+			],
+			[
+				"so",
+				"soc-icon"
+			],
+			[
+				"tex",
+				"text-top"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"wor",
+				"word-spacing"
+			],
+			[
+				"info",
+				"info_block\t(index.html)"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"bor",
+				"bord\t(index.html)"
+			],
+			[
+				"wh",
+				"width"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"al",
+				"alert\t(message?: any) => void"
+			],
+			[
+				"min-",
+				"min-height"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: function"
+			],
+			[
+				"snippet ",
+				"Snippet: if-___-else"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:ins",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"Package Cinstale",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 565.0
+	},
+	"console":
+	{
+		"height": 172.0,
+		"history":
+		[
+			"node -v",
+			"git -v",
+			"npm -v",
+			"node -v"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/main.sublime-project",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/mixin.styl",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/code.js",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/node_modules/react-dev-utils/node_modules/inquirer/lib/ui/bottom-bar.js",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/main.styl",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/mixin.pug",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/src/index.pug",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/Stylus/Stylus.sublime-settings",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/JsFormat/JsFormat.sublime-settings",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/webpack.config.js",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/webpack.config.prod.js",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/package.json",
+		"/C/Users/Сергей.SER.000/Desktop/pereverstka-videonabl/package-lock.json",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/cabinet.pug",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/webpack.config.js",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/src/mixin.styl",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/src/mixin.pug",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/package.json",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/webpack.config.js",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/src/code.js",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/src/main.styl",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/webpack.config.prod.js",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/src/index.pug",
+		"/C/Users/Сергей.SER.000/Desktop/тестовое задание джино/node_modules/viewport-dimensions/dist/viewport.min.js",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/mixin.styl",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/dist/main.js",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/main.styl",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/mixin.pug",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/index.js",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/anketa.pug",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/index.pug",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/webpack.config.prod.js",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/dist/main.css",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/package.json",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/img/svg/fotik.svg",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/img/svg/coin.svg",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/Default (Windows).sublime-keymap",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/newFile.pug",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/AdvancedNewFile/README.md",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/page.pug",
+		"/C/Users/Сергей.SER.000/Desktop/site_girls/src/img/svg/poisk.svg",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/test2/js/main.js",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/test2/css/main.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/test2/success.php",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/test2/index.html",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/test2/leads.xls",
+		"/D/OpenServer/OSPanel/domains/site.loc/electrosnabzenie/index.php",
+		"/D/OpenServer/OSPanel/domains/site.loc/js/scripts.js",
+		"/D/OpenServer/OSPanel/domains/site.loc/css/styles.css",
+		"/D/OpenServer/OSPanel/domains/site.loc/otoplenie/index.php",
+		"/D/OpenServer/OSPanel/domains/site.loc/uteplenie/index.php",
+		"/D/OpenServer/OSPanel/domains/site.loc/js/scripts_1.js",
+		"/D/OpenServer/OSPanel/domains/site.loc/js/libraries.js",
+		"/D/OpenServer/OSPanel/domains/site.loc/footer.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/header.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/index.php",
+		"/D/WEB/Различные материалы/Libs/digitalBush-jquery.maskedinput-9672630/demo/index.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/modals.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/js/scripts_old.js",
+		"/C/Users/Сергей.SER.000/Desktop/styleparfum.css",
+		"/D/WEB/webpack_examen/src/fonts/font.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/index_page_files/bootstrap.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/list_sity/list_sity_files/bootstrap.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_mobile_files/bootstrap.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/index_page_files/style.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/style/main.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop.htm",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop_files/style.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/index_page.htm",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop_files/styleank.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_mobile_files/style.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop_files/my.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop_files/bootstrap.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/list_sity/list_sity_files/style.css",
+		"/C/Users/Сергей.SER.000/AppData/Local/Temp/Rar$DIa0.358/style.css",
+		"/C/Users/Сергей.SER.000/AppData/Local/Temp/Rar$DIa0.517/style.css",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_desktop_files/script.js",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/T3_2/anketa_mobile.htm",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/Emmet/Default (Windows).sublime-keymap",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/Сергей.SER.000/Desktop/камера/index (2).html",
+		"/D/WEB/webpack_examen/package.json",
+		"/D/WEB/webpack_examen/src/main.styl",
+		"/D/OpenServer/OSPanel/domains/site.loc/section6.php",
+		"/D/OpenServer/OSPanel/domains/site.loc/page-end.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/consult.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/page-start.html",
+		"/D/OpenServer/OSPanel/domains/site.loc/privacy-policy/index.php",
+		"/C/Users/Сергей.SER.000/Downloads/фриланс текущее/map-position.png",
+		"/C/Users/Сергей.SER.000/Desktop/style.css",
+		"/C/Users/Сергей.SER.000/Desktop/test.html",
+		"/D/WEB/webpack_examen/src/fonts/styles.css",
+		"/C/Users/Сергей.SER.000/Downloads/OxygenMono-Regular/styles.css",
+		"/D/WEB/webpack_examen/src/index.js",
+		"/D/OpenServer/OSPanel/domains/zber.loc/arcticmodal/themes/simple.css",
+		"/D/OpenServer/OSPanel/domains/zber.loc/out.php",
+		"/D/OpenServer/OSPanel/domains/zber.loc/index.html",
+		"/D/OpenServer/OSPanel/domains/zber.loc/arcticmodal/jquery.arcticmodal-0.3.css",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/companents/section_man.html",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/files/app/css/main9571.css",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/companents/footer.html",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/sendemail.php",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/companents/header.html",
+		"/D/WEB/test/src/main.styl",
+		"/C/Users/Сергей.SER.000/AppData/Roaming/Sublime Text 3/Packages/CSScomb/Default.sublime-keymap",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/files/app/js/common.js",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/companents/arrProd.php",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/companents/section_woman.html",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/files/app/css/style2.css",
+		"/D/OpenServer/OSPanel/domains/parfum.loc/files/app/css/styles.css",
+		"/D/WEB/test/node_modules/slick-carousel/slick/slick.js",
+		"/D/WEB/test/node_modules/react-dev-utils/node_modules/inquirer/lib/utils/screen-manager.js",
+		"/D/WEB/test/webpack.config.js",
+		"/D/WEB/test/src/index.js",
+		"/D/WEB/test/src/fonts/font.css",
+		"/D/WEB/test/src/fonts/GothamPro/font.css",
+		"/D/WEB/test/src/fonts/stylesheet.css",
+		"/C/Users/Сергей.SER.000/Downloads/GothamPro/stylesheet.css",
+		"/C/Users/Сергей.SER.000/Desktop/Тестовое задание/тестовое задание-2/решение/phpttest.phtmll",
+		"/C/Users/Сергей.SER.000/Desktop/Тестовое задание/тестовое задание-2/решение/templ.xsl",
+		"/C/Users/Сергей.SER.000/Desktop/Тестовое задание/тестовое задание-2/решение/sample.xsl",
+		"/C/Users/Сергей.SER.000/Desktop/Тестовое задание/тестовое задание-2/решение/templ.xls",
+		"/C/Users/Сергей.SER.000/Downloads/production (2)/production/index.html",
+		"/C/Users/Сергей.SER.000/Downloads/production (2)/production/style.css",
+		"/D/OpenServer/OSPanel/domains/test.loc/index.html"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 142.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"span"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 50.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "main.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"anket",
+				"src\\anketa.pug"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

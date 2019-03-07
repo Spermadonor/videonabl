@@ -1,0 +1,809 @@
+@import '~normalize.css'
+@import '~@fancyapps/fancybox/dist/jquery.fancybox.min.css'
+@import 'mixin.styl'
+
+// variables
+oran = #ff7f50
+body
+    font-family 'pt sans narrow'
+    font-size 19px
+    color #000
+    
+*, *:before, *:after
+    box-sizing border-box
+.container
+    padding 0 20px
+    width 100%
+    max-width 1100px
+    margin 0 auto
+    overflow hidden
+    +xs()
+        padding 0 10px
+.btn
+    width 100%
+    height 50px
+    color #fff
+    background-color #ff914c
+    border-radius 7px
+    text-transform uppercase
+    font-size 19px
+    font-weight bold
+    border none
+    cursor pointer
+    box-shadow 0 0 3px black
+    trans()
+    &:hover
+        background-color #ff914c - 30
+        color #fff - 30
+
+// ******  Timer
+
+.second-my
+    width 260px
+    padding 0px
+    text-align center
+    overflow hidden
+    margin 0 auto 15px
+    clear both
+    .result
+        float right
+        span
+            &.items
+                width 45px
+                padding 10px 7px
+                display inline-block
+                margin 0 4px 0 -5px
+                font-size 20px
+                border-radius 4px
+                box-shadow 0px 1px 1px 0px rgb(178, 176, 176)
+                background rgb(125,126,125)
+                background linear-gradient(to bottom, rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%)
+                color white
+                font-family "Russo One", sans-serif
+                min-width 30px
+                letter-spacing: 2px
+            &.dot
+                margin 0 2px
+                position relative
+                left -4px
+                font-family "Russo One", sans-serif
+                font-size 17px
+    .titles
+        position relative
+        height 0
+        right -23px
+        width 300px
+        span
+            font-size 10px
+            position relative
+            top 12px
+            &.mm
+                right 18px
+            &.hh
+                right 40px
+            &.dd
+                right 62px
+    p
+        &.titloftimer
+            font-size 18px
+            margin 0 auto
+            left 10px
+            position relative
+            font-family "Russo One", sans-serif
+
+.timerhello
+    span
+        margin 0
+        padding 0
+        border 0
+        font-size 100%
+        font inherit
+        vertical-align baseline
+    p
+        font-size 100%
+        font inherit
+        color #191919
+        font-family Verdana, sans-serif
+        font-size 13px
+        margin 0 0 10px 0
+        line-height 17px
+
+header
+    background-color #f4f4f4
+    h2
+        margin 0 0 20px 0
+        color #191970
+        font-size: 48px
+        +lg()
+            font-size 40px
+        +sm()
+            font-size 30px
+        +xs()
+            font-size 26px
+            text-align center
+    /.top
+        display flex
+        justify-content  space-between
+        align-items center
+        +md()
+            flex-wrap wrap
+            justify-content center
+    .podz
+        font-size 21px
+        font-weight bold
+        +xs()
+            font-size 18px
+            br
+                display none
+    .two
+        +xs()
+            display none
+    /.two::before
+        +xs()
+            content ' '
+                
+                
+    /.worck
+        font-size 19px
+        margin-bottom 10px
+    /.tel
+        margin-bottom 15px
+        font-size 35px
+        +xs()
+            font-size 25px
+    /.contacts
+        margin 10px 0 20px 0
+        text-align right
+        +xs()
+            margin-bottom 10px
+            text-align center
+        img
+            display inline-block
+            margin-right 20px
+        button
+            max-width 231px
+            +xs()
+                order -1
+                margin-top 5px
+                margin-bottom 20px
+        +xs()
+            display flex
+            flex-direction column
+            align-items center
+.banner
+    padding 10px 0
+    font-family 'pt sans narrow'
+    color white
+    background-color #0a3777
+    strong
+        padding-left 20px
+        font-size: 45.5px 
+        span
+            color #ff7f50
+        +sm()
+            margin-right auto
+            padding 0
+            font-size 25px
+        +xs()
+            font-size 26px
+            display inline-block
+            margin auto
+    .adress
+        font-size 19px
+        text-align right
+        +xs()
+            margin-left auto
+            font-size 17px
+            display none
+.akciy
+    display flex
+    margin-top 15px
+    margin-bottom 20px
+    justify-content  space-between
+    +md()
+        flex-wrap wrap
+        justify-content center
+    h2
+        margin 0
+        font-size 29px
+        color oran
+        +xs()
+            font-size 23px
+    .image-cam
+        width 35%
+        padding-top 20px
+        text-align center
+        +md()
+            width auto
+        img
+            display block
+            width 100%
+    /.akc-text
+        width 65%
+        padding-left 20px
+        +sm()
+            width 100%
+        +xs()
+            margin-top 20px
+        >img
+            width 100%
+            float right
+            max-width 190px
+            margin-bottom -33px
+            +xs()
+                display block
+                margin 0 auto
+                float unset
+    /marquee
+        display inline-block
+        width 69px
+        height 35px
+        border 3px solid oran
+        background-color #dcdcdc
+        font-family arial
+        font-size 27px
+        color oran
+    /.cross
+        position relative
+        span
+            position absolute
+            width 90%
+            height 4px
+            background-color oran
+            top 18px
+            left 0
+            border-radius 15%
+            +xs()
+                top 14px
+        /.first-line
+            transform rotate(40deg)
+        /.second-line
+            transform rotate(-40deg)
+    .btn
+        max-width 270px
+        text-transform none
+        margin-bottom 20px
+    /.forma-zayvka
+        position relative
+        margin 0 auto
+        padding 10px 15px
+        width 100%
+        max-width 550px
+        background url(img/bg_form.png)
+        text-align center
+        border-radius 12px
+        form
+            width 100%
+            max-width 300px
+            margin 0 auto
+            margin-top 10px
+            
+        h3
+            margin 0
+            font-size 33px
+            text-transform uppercase
+            font-weight normal
+            +xs()
+                font-size 25px
+        input
+            display block
+            width 100%
+            height 45px
+            padding 0px 0px 0px 40px
+            color #696969
+            font-size: 16px;
+            font-family Calibri
+            line-height 45px
+            vertical-align middle
+            border 0px #D3D3D3 solid
+            box-shadow 0px 0px 5px #696969
+    /.input-wrap
+        position relative
+        margin-bottom 15px
+    /.icon-user, /.icon-phone
+        position absolute
+        left 13px
+        top 16px
+    /.zakl-1,/.zakl-2,/.zakl-3,/.zakl-4
+        position absolute
+        +xs()
+            display none
+    /.zakl-1
+        left 20px
+        top 53px
+    /.zakl-2
+        right 20px
+        top 53px
+    /.zakl-3
+        left 20px
+        bottom 60px
+    /.zakl-4
+        right 20px
+        bottom 60px
+.top-str
+    >span
+        display inline-block
+        margin 30px 0
+    +xs()
+     display none
+.bot-str
+    display none
+    text-align center
+    >span
+        display inline-block
+        margin-bottom 20px
+    +xs()
+        display block
+.dist-video
+    .b
+        display none
+        +xs()
+            display inline
+    /.sect-title
+        position relative
+        font-size 43px
+        font-weight normal
+        text-align center
+        +lg()
+            font-size 35px
+        +xs()
+            font-size 25px
+    /.title
+        display inline-block
+        padding 0 35px
+        background-color #fff
+        +xs()
+            padding 0 10px
+    /.line
+        width 100%
+        height 3px
+        position absolute
+        left 50%
+        top 50%
+        transform translate(-50%, -50%)
+        background-color black
+        z-index -1
+    .left-block
+        img
+            margin-right 30px
+     .left-block, .right-block
+         position relative
+         p
+             margin-bottom 45px
+         img.pic, img.min
+            +xs()
+                display block
+                margin auto
+                float unset
+    /.content-between
+        display flex
+        justify-content space-between
+        +md()
+            flex-wrap wrap
+            justify-content center
+        >div
+            width 50%
+            margin 0 10px
+            +md()
+                margin 0
+                width 100%
+            img
+                float left
+        .pic
+            margin-bottom 20px
+            +xs()
+                margin-bottom 0
+        h3
+            font-size 29px
+            text-transform uppercase
+            font-weight normal
+            +xs()
+                font-size 20px
+        .btn
+            display block
+            height 30px
+            max-width 120px
+            font-family Arial
+            font-weight normal
+            clear both
+            border-radius unset
+    .btn
+        +xs()
+            left 50%
+            transform translateX(-50%)
+    .btn
+        position absolute
+        left 0
+        bottom 0
+    .min
+        max-width 243px
+        margin 30px
+.youtube
+    iframe
+        width 100%
+        height 430px
+        +min()
+            height 230px
+    .left-block, .right-block
+        flex()
+        flex-direction column
+        justify-content space-between
+    .tel
+        img
+            margin-right 20px
+    .cont
+        text-align center
+.montag
+    h4
+        font-size 29px
+        font-weight normal
+        +xs()
+            font-size 20px
+    p
+        clear both
+    img
+        width 100%
+        +md()
+            display block
+            width 50%
+            margin auto
+        +min()
+            width 100%
+    .left-block, .right-block
+        display flex
+        flex-direction column
+        justify-content space-between
+        .btn
+            +xs()
+                margin auto
+.vigodi
+    margin-top 30px
+    overflow hidden
+    br
+        +md()
+            display none
+    .sect-title
+        margin-bottom 20px
+    .block-icon
+        display flex
+        margin 0 -40px
+        padding 0 15px
+        justify-content center
+        background-color #f3f3f3
+        border-top 1px solid black
+        box-shadow -1px 0 10px
+        +md()
+            flex-wrap wrap
+    .item
+        margin 0 40px
+        padding 40px 0
+        text-align center
+        +md()
+            width 50%
+        +xs()
+            width 100%
+    .photo-block
+        display flex
+        +md()
+            flex-wrap wrap
+            justify-content center
+        +sm()
+            justify-content normal
+        +xs()
+            justify-content center
+        img
+            width calc(100%/5)
+            height 200px
+            +md()
+                 width calc(100%/3)
+            +sm()
+                width calc(100%/2)
+            +xs()
+                width 70%
+.price
+    .contacts
+        float right
+        display inline-block
+        margin-left 20px
+        +xs()
+            float unset
+            margin-left 0
+            width 100%
+            text-align center
+.raschet
+    background url(img/bg_section.jpg) center / cover
+    .ras-wrap
+        display flex
+        width 100%
+        padding 0 20px
+        max-width 1000px
+        margin 0 auto
+        padding-top 40px
+        justify-content space-between
+        +lg()
+            flex-wrap wrap
+        >div
+            width 50%
+            +lg()
+                width 100%
+                text-align center
+    h2
+        font-size 43px
+        margin-top 0
+        margin-bottom 20px
+        +sm()
+            font-size 35px
+        +xs()
+            font-size 25px
+    .container
+        position relative
+    .ras-left
+        +cont()
+            padding-left 50px
+        +lg()
+            padding-left 0
+    .ras-discr
+        font-size 27px
+    .forma-zayvka
+        background none
+        max-width none
+    .btn
+        text-transform none
+    .zakl-1
+        top 10px
+    .zakl-2
+        top 10px
+    .zakl-3
+        bottom 10px
+    .zakl-4
+        bottom 10px
+    .zakl-1, .zakl-2, .zakl-3,  .zakl-4
+        +xs()
+            display none
+.garantia
+    font-size 25px
+    margin-bottom 60px
+    +sm()
+        font-size 20px
+    .gar-left
+        font-size 27px
+        +sm()
+            font-size 22px
+    h3
+        font-family Arial
+        margin 0
+    .gar-wrap
+         display flex
+         +xs()
+            flex-wrap wrap
+    .gar-right
+        width 100%
+        text-align center
+.otzivi
+    font-size 24px
+    +sm()
+        font-size 21px
+    p
+        font-size 19px
+        clear both
+    div> img
+        margin 0 20px 20px 0
+        +min()
+            display block
+            margin 0 auto
+            float unset
+.clienti
+    margin-bottom 40px
+    img
+        display block
+        width 100%
+        margin-right 20px
+    .left-block, .right-block
+        img
+            max-width 147px
+            +xs()
+                float unset
+                //max-width 200px
+                margin 0 auto 20px auto
+    .im-wrap
+        flex()
+        align-items center
+        margin-bottom 60px
+        clear both
+        overflow hidden
+        +xs()
+            flex-wrap wrap
+            text-align center
+    img.nezav
+        float none
+        max-width 414px
+    img.lantan
+        max-width 288px
+        margin-right 0
+    img.cin
+        float none
+        max-width 300px
+    .gor
+        display block
+.how-we-worck
+    background-color #0a3974
+    padding-top 5px
+    .container
+        overflow unset
+    h2
+        font-size 43px
+        color #fff
+        text-align center
+        +md()
+            font-size 30px
+    .circ-wrap
+        display flex
+        justify-content space-between
+        +md()
+            flex-wrap wrap
+    .item-circle
+        position relative
+        padding-bottom 150px
+        +md()
+            width 50%
+            text-align center
+        +xs()
+            width 100%
+    .circle
+        display inline-block
+        position relative
+        width 114px
+        height 114px
+        text-align center
+        line-height 114px
+        vertical-align middle
+        border-radius 50%
+        background-color #fff
+        color #0a3974
+        font-size 50px
+        img
+            position absolute
+            +cont()
+                display none
+    .line-1
+        right -161px
+        top 9px
+    .line-2
+        right -134px
+        top 22px
+    .line-3
+        right -143px
+        top 29px
+    .line-4
+        right -134px
+        top 22px
+    .item-t
+        position absolute
+        bottom 50px
+        left 40px
+        font-size 25px
+        color white
+        +md()
+            left 50%
+            transform translateX(-50%)
+    .big
+        left 0
+        width 300px
+    .last
+        left 14px
+.contacts-block
+    .contacts-wrap
+        display flex
+        justify-content space-between
+        +lg()
+            flex-wrap wrap
+            justify-content center
+    .contact-info
+        img
+            margin-right 20px
+    .worck
+        margin-top 80px
+    .map
+        height 450px
+        overflow hidden
+.akciy-2
+    margin-top 50px
+    h2
+        color oran
+        text-align center
+        +xs()
+            font-size 23px
+    .cam
+        float left
+        margin-right 15px
+        +xs()
+            display block
+            margin 0 auto
+            float unset
+    .acciy-2-wrap
+        display flex
+        justify-content space-between
+        +lg()
+            flex-wrap wrap
+    .akc-text
+        width auto
+        margin-right 20px
+        padding 0
+        img
+            margin-bottom 0
+        +lg()
+            margin-right 0
+    .dop
+        padding-left 80px
+        clear both
+        +lg()
+            clear none
+        +xs()
+            padding 0
+            margin-bottom 15px
+    .btn
+        margin-bottom 10px
+        text-transform none
+footer
+    margin-top 60px
+    padding-top 20px
+    background-color #dcdcdc
+    .left-bl
+        div
+            font-size 27px
+    h2
+        font-size 43px
+        text-transform uppercase
+        font-weight normal
+        margin 10px 0
+        +lg()
+            font-size 40px
+        +sm()
+            font-size 30px
+        +xs()
+            font-size 25px
+        &:nth-child(2)
+            color #0c3576
+    .foot-wrap
+        display flex
+        justify-content space-between
+        +md()
+            flex-wrap wrap
+            justify-content center
+        >div
+            +md()
+                width 100%
+                text-align center
+            
+    img
+        margin-right 20px
+    #indexHtml8
+        margin-top 40px
+        margin-left auto
+        width 113px
+        height 62px
+    .right-bl
+        text-align center
+        +md()
+            margin-top 15px
+    .btn
+        max-width 223px
+.modal
+    display none
+    /.mod
+        border-radius unset
+        padding-bottom 30px
+        border 7px solid rgba(#1e1e1e, .9)
+        .btn
+            margin-bottom 30px
+.fancybox-slide--html .fancybox-close-small
+    background url(img/fancy_close.png) no-repeat center
+    padding 0
+    width 30px
+    height 30px
+    right -17px
+    top -17px
+    svg
+        display none
+.fancybox-content
+    overflow unset
