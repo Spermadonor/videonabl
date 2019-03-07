@@ -1,5 +1,6 @@
+import 'slick-carousel';
 import '@fancyapps/fancybox';
-
+import 'lazyYT/lazyYT.js';
 function get_timer_794(string_was_794, string_sec_794) {
 	var date_new_was_794 = new Date(string_was_794);
 	var date_new_sec_794 = string_sec_794;
@@ -91,3 +92,19 @@ $('form').submit(Validatecontact);
 $('.fansy').click(function() {
 	$.fancybox.open($('.modal .forma-zayvka'));
 });
+
+
+if (window.matchMedia("(max-width: 500px)").matches) {
+	$('.otzivi .content-between .left-block').unwrap();
+	$('.clienti .content-between .left-block').unwrap();
+	$('.clienti .slick-sl .im-wrap').unwrap();
+	$('.youtube .content-between .left-block').unwrap();
+
+	$('.slick-sl').slick({
+		dots: true
+	});
+} else {
+  
+}
+
+$('.iframe').lazyYT();
