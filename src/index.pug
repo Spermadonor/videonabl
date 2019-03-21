@@ -7,8 +7,37 @@ html(lang="ru")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         meta(name="description" content="Быстрая установка видеонаблюдения в Москве и Московской области под ключ. Системы контроля доступа СКУД.")
         title ВИДЕОНАБЛЮДЕНИЕ-БЫСТРО.РФ Установка систем видеонаблюдения и контроля доступа под ключ.
-        link(href="http://font.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic" rel="stylesheet" type="text/css")
-        link(href="http://font.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel="stylesheet" type="text/css")
+        link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" type="text/css")
+        script.
+          (function(w, c){(w[c]=w[c]||[]).push(function(){new zTracker({"id":"fbd4c60db7443e3cf810ffd0ed8d61fa987","metrics":{"metrika":"24757037","ga":"UA-64547242-2"}});});})(window, "zTrackerCallbacks");
+        script#zd_ct_phone_script(async="" src="https://my.zadarma.com/js/ct_phone.min.js")
+
+        // Yandex.Metrika counter
+        script(type="text/javascript").
+          (function (d, w, c) {
+          (w[c] = w[c] || []).push(function() {
+          try {
+          w.yaCounter24757037 = new Ya.Metrika({id:24757037,
+          webvisor:true,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,params:window.yaParams||{ }});
+          } catch(e) { }
+          });
+          var n = d.getElementsByTagName("script")[0],
+          s = d.createElement("script"),
+          f = function () { n.parentNode.insertBefore(s, n); };
+          s.type = "text/javascript";
+          s.async = true;
+          s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+          if (w.opera == "[object Opera]") {
+          d.addEventListener("DOMContentLoaded", f, false);
+          } else { f(); }
+          })(document, window, "yandex_metrika_callbacks");
+        noscript
+          div
+            img(src="//mc.yandex.ru/watch/24757037" style="position:absolute; left:-9999px;" alt="")
+        // /Yandex.Metrika counter
     body
         header
            .container
@@ -18,11 +47,12 @@ html(lang="ru")
                         .podz Установка систем видеонаблюдения и контроля доступа под ключ.
                             br
                             span.two Проектирование, монтаж, обслуживание в Москве и Подмосковье.
+                        .podz__adress г. Москва#[br]Б. Дровяной пер., 13/7
                     .contacts
                         .worck Звоните с 10.00 до 21.00 без выходных!
-                        .tel
+                        a.tel(href="tel:+74993467121")
                             img(src="img/icon-phone.png", alt="phone")
-                            span 8 (499) 346-71-21
+                            span.zphone 8 (499) 346-71-21
                         button.btn(type="button").fansy Обратный звонок
         section.banner
             .container.top
@@ -73,9 +103,9 @@ html(lang="ru")
                 .forma-zayvka
                     h3 Оставьте заявку сейчас
                     div получите камеру бусплатно!
-                    form(name="contact" method="post" action="index.php" enctype="multipart/form-data")
+                    form(name="ZAYAVKA CUPOL BESPLATNO" method="post" action="send.php" enctype="multipart/form-data")
                         .input-wrap
-                            input(type="text" placeholder="Ваше имя" name="name1")
+                            input(type="text" placeholder="Ваше имя" name="name")
                             img.icon-user(src="img/user.png", alt="icon")
                         .input-wrap
                             input(type="tel" placeholder='Введите ваш телефон*' name="telefon")
@@ -96,7 +126,7 @@ html(lang="ru")
                 span.line
             .content-between
                 .left-block
-                    h3 Полный кантроль из любой точки мира
+                    h3 Полный контроль из любой точки мира
                     img(src="img/video-in-phone.jpg", alt="photo").pic
                     p Самая популярная на сегодня опция системы видеонаблюдения это - удаленный мониторинг объекта наблюдения. Наши клиенты очень часто заинтересованы в дистанционном контроле своего бизнеса, дома, склада, автостоянки, ресторана и.т.д. Владейте ситуацией в любом месте 24 часа в сутки на планшете, смартфоне, ноутбуке!
                     button(type="button").btn.fansy Заказать
@@ -107,9 +137,7 @@ html(lang="ru")
                     button(type="button").btn.fansy Заказать
         section.container.youtube
             h2.sect-title
-                span.title  ВНИМАНИЕ! У ВАС ВОРУЮТ, ОТЛЫНИВАЮТ, ПОРТЯТ,
-                    br
-                    |  ОБМАНЫВАЮТ, НАПАДАЮТ, УГРОЖАЮТ!?
+                span.title  ВНИМАНИЕ! У ВАС ВОРУЮТ, ОТЛЫНИВАЮТ, ПОРТЯТ, ОБМАНЫВАЮТ, НАПАДАЮТ, УГРОЖАЮТ!?
                     span.line 
             .slick-sl
                 .content-between
@@ -139,9 +167,9 @@ html(lang="ru")
             p Посмотрите эти видеоматериалы. К сожалению, к нам обращаются за установкой видеонаблюдения и систем контроля доступа ПОСЛЕ происшествий, краж, криминальных инциндентов. Все происходит как в пословице: "Пока гром не грянет, мужик не перекрестится". Будьте умнее, предусмотрительнее, свяжитесь с нами ДО того, как случится беда! В большинстве случаев, это не просто позволит контролировать события, а полностью предотвратит проблему. Прямо сейчас звоните или оставьте заявку!
             .cont
                 .worck Звоните с 10.00 до 21.00 без выходных!
-                    .tel
+                    a.tel(href="tel:+74993467121")
                         img(src="img/icon-phone.png", alt="phone")
-                        span 8 (499) 346-71-21
+                        span.zphone 8 (499) 346-71-21
         section.container.montag
             h2.sect-title
                 span.title  КАЧЕСТВЕННЫЙ МОНТАЖ С СОБЛЮДЕНИЕМ 
@@ -192,9 +220,9 @@ html(lang="ru")
                     span.line
             .contacts
                 .worck Звоните с 10.00 до 21.00 без выходных!
-                .tel
+                a.tel(href="tel:+74993467121")
                     img(src="img/icon-phone.png", alt="phone")
-                    span 8 (499) 346-71-21
+                    span.zphone 8 (499) 346-71-21
                 img(src="img/news.jpg", alt="pic")
             p Стоимость комплекса системы видеонаблюдения складывается из средств на оплату оборудования, расходных материалов и монтажных работ.
             p Существует множество систем разных ценовых сегментов и разных возможностей. Выбор производителя техники может зависеть от  цены оборудования, требованиями по надежности комплекса, функциональным возможностям, престижу бренда и.т.д. Для определения  стоимости  системы видеонаблюдения  необходимо на месте обговорить все пожелания и ограничения, понять требования к внешнему виду техники и проводке, дизайну помещений, условий эксплуатации, освещенности объекта, качеству записи и просмотра изображения.
@@ -210,12 +238,12 @@ html(lang="ru")
                         .forma-zayvka
                             h3 Оставьте заявку
                             div на бесплатный расчёт двух вариантов стоимости
-                            form(name="contact" method="post" action="index.php" enctype="multipart/form-data")
+                            form(name="ZAYAVKA CUPOL BESPLATNO" method="post" action="send.php" enctype="multipart/form-data")
                                 .input-wrap
-                                    input(type="text" placeholder="Ваше имя" name='name2')
+                                    input(type="text" placeholder="Ваше имя" name='name')
                                     img.icon-user(src="img/user.png", alt="icon")
                                 .input-wrap
-                                    input(type="tel" placeholder='Введите ваш телефон*' name='telefon2')
+                                    input(type="tel" placeholder='Введите ваш телефон*' name='telefon')
                                     img(src="img/icon-phone.png", alt="icon").icon-phone
                                 button.btn(type="submit") Получите бесплатную камеру
                             div Мы гарантируем конфиденциальность ваших данных
@@ -250,7 +278,7 @@ html(lang="ru")
             .slick-sl
                 .content-between
                     .left-block
-                        img(src="img/sveta.jpg", alt="photo")
+                        img(src="img/sveta.png", alt="photo")
                         .info #[b Салон красоты:] установлено 4-е купольные, ip камеры + NVR на 4-е канала
                             br
                             | Светлана Алексеевна
@@ -354,9 +382,9 @@ html(lang="ru")
                     p Россия, 109004, г. Москва, Б. Дровяной пер., 13/7 500 метров от метро Марксистская или Таганская (кольцевая) 
                     p bystrovid@yandex.ru
                     .worck Звоните с 10.00 до 21.00 без выходных!
-                    .tel
+                    a.tel(href="tel:+74993467121")
                         img(src="img/icon-phone.png", alt="phone")
-                        span 8 (499) 346-71-21
+                        span.zphone 8 (499) 346-71-21
                .map
                     script(type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=m9pCVXBn9LVOFH4xvES1aJ-WHh3YuyFN&width=600&height=450")
         section.container.akciy-2
@@ -377,12 +405,12 @@ html(lang="ru")
                 .forma-zayvka
                     h3 Оставьте заявку сейчас
                     div получите камеру бусплатно!
-                    form(name="contact" method="post" action="index.php" enctype="multipart/form-data")
+                    form(name="ZAYAVKA CUPOL BESPLATNO" method="post" action="send.php" enctype="multipart/form-data")
                         .input-wrap
-                            input(type="text" placeholder="Ваше имя" name='name3')
+                            input(type="text" placeholder="Ваше имя" name='name')
                             img.icon-user(src="img/user.png", alt="icon")
                         .input-wrap
-                            input(type="tel" placeholder='Введите ваш телефон*' name='telefon3')
+                            input(type="tel" placeholder='Введите ваш телефон*' name='telefon')
                             img(src="img/icon-phone.png", alt="icon").icon-phone
                         button.btn(type="submit") Получите бесплатную камеру
                     div Мы гарантируем конфиденциальность ваших данных
@@ -403,25 +431,21 @@ html(lang="ru")
                         div Дарим чувство спокойствия
                     .right-bl
                         .worck Звоните с 10.00 до 21.00 без выходных!
-                        .tel
+                        a.tel(href="tel:+74993467121")
                             img(src="img/icon-phone.png", alt="phone")
-                            span 8 (499) 346-71-21
+                            span.zphone 8 (499) 346-71-21
                         button(type="button").btn.fansy Перезвоните мне
-                        #indexHtml8
-                            script#top100Counter(type="text/javascript" src="http://counter.rambler.ru/top100.jcn?3072523")
-                            noscript
-                                a(href="http://top100.rambler.ru/navi/3072523/")
-                                  img(src="http://counter.rambler.ru/top100.cnt?3072523" alt="Rambler's Top100" border="0")
         .modal
             .forma-zayvka.mod
                     h3 Оставьте заявку сейчас
                     div получите камеру бусплатно!
-                    form(name="contact" method="post" action="index.php" enctype="multipart/form-data")
+                    form(name="ZAYAVKA SVYAZHITES SO MNOY" method="post" action="send.php" enctype="multipart/form-data")
                         .input-wrap
-                            input(type="text" placeholder="Ваше имя" name="name4")
+                            input(type="text" placeholder="Ваше имя" name="name")
                             img.icon-user(src="img/user.png", alt="icon")
                         .input-wrap
-                            input(type="tel" placeholder='Введите ваш телефон*' name="telefon4")
+                            input(type="tel" placeholder='Введите ваш телефон*' name="telefon")
                             img(src="img/icon-phone.png", alt="icon").icon-phone
                         button.btn(type="submit") Получите бесплатную камеру
                     div Мы гарантируем конфиденциальность ваших данных
+            .blagod СПАСИБО!#[br]ВАША ЗАЯВКА ПРИНЯТА!

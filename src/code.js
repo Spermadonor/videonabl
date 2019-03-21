@@ -1,6 +1,7 @@
 import 'slick-carousel';
 import '@fancyapps/fancybox';
 import 'lazyYT/lazyYT.js';
+import Inputmask from "inputmask";
 function get_timer_794(string_was_794, string_sec_794) {
 	var date_new_was_794 = new Date(string_was_794);
 	var date_new_sec_794 = string_sec_794;
@@ -61,50 +62,61 @@ $(document).ready(function() {
 	getfrominputs_794();
 });
 
-function Validatecontact(theForm) {
-    var tel = this.querySelector('[type="tel"]');
-	var regexp;
-	regexp = /^[-+]?\d*\.?\d*$/;
-	if (!regexp.test(tel.value)) {
-		alert("Введите номер телефона правильно!");
-		tel.focus();
-		return false;
-	}
-	if (tel.value == "") {
-		alert("Введите номер телефона правильно!");
-		tel.focus();
-		return false;
-	}
-	if (tel.value.length < 7) {
-		alert("Введите номер телефона правильно!");
-		tel.focus();
-		return false;
-	}
-	if (tel.value.length > 40) {
-		alert("Введите номер телефона правильно!");
-		tel.focus();
-		return false;
-	}
-	return true;
-}
+// Input masck
+Inputmask("+7 (999) 999-99-99").mask("input[type='tel']");
+// Send zaivka
+$('form').submit(function() {
+	var form = $(this);
+	var error = false;
+	var nameEl = form.find("input[name=name]");
+	var name = nameEl.val().trim();
+	if (name === '') {
+		nameEl.css('border', '1px solid red');
+		error = true;
+	} else nameEl.removeAttr('style');
+	var tel = form.find("input[type='tel']");
+	var number = tel.val().trim();
+	var reg = /^([\+]+)*[0-9\x20\x28\x29\-]{5,20}$/;
+	if(reg.test(number) == false) {
+		tel.css('border', '1px solid red');
+		error = true;
+	} else tel.removeAttr('style');
 
-$('form').submit(Validatecontact);
+	if (error) return false;
+
+	$.ajax({
+	    url: form.attr('action'),
+	    method: 'post',
+	    dataType: 'html',
+	    data: {
+	    		Name: name,
+	    		Telefon: number,
+	    		Zayavka: form.attr('name')
+	    	}
+	}).done(function(response) {
+		$.fancybox.close($('.modal .forma-zayvka'));
+		$.fancybox.open($('.modal .blagod'));
+		$(this).trigger('reset');
+    }).fail(function() {
+    	$.fancybox.open($('.modal .blagod').html('При отправке формы произошла ошибка.'));
+    });
+	return false;
+})
+
 $('.fansy').click(function() {
 	$.fancybox.open($('.modal .forma-zayvka'));
 });
 
 
-if (window.matchMedia("(max-width: 500px)").matches) {
+if (window.matchMedia("(max-width: 670px)").matches) {
 	$('.otzivi .content-between .left-block').unwrap();
 	$('.clienti .content-between .left-block').unwrap();
 	$('.clienti .slick-sl .im-wrap').unwrap();
 	$('.youtube .content-between .left-block').unwrap();
 
 	$('.slick-sl').slick({
-		dots: true
+		dots: true,
+		arrows: true
 	});
-} else {
-  
 }
-
 $('.iframe').lazyYT();

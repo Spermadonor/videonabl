@@ -7,7 +7,7 @@
 // variables
 oran = #ff7f50
 body
-    font-family 'pt sans narrow'
+    font-family 'PT Sans Narrow', sans-serif
     font-size 19px
     color #000
     
@@ -112,7 +112,7 @@ body
 
 header
     background-color #f4f4f4
-    +xs()
+    +sm()
         padding-top 10px
     h2
         margin 0 0 20px 0
@@ -139,6 +139,15 @@ header
             font-size 18px
             br
                 display none
+        +xs()
+            width 53%
+            float left
+        /&__adress
+            display none
+            float right
+            font-weight bold
+            +xs()
+                display inline-block
     .two
         +xs()
             display none
@@ -151,8 +160,11 @@ header
         font-size 19px
         margin-bottom 10px
     /.tel
+        display block
         margin-bottom 15px
         font-size 35px
+        color #000
+        text-decoration none
         +xs()
             font-size 25px
     /.contacts
@@ -176,7 +188,7 @@ header
             align-items center
 .banner
     padding 10px 0
-    font-family 'pt sans narrow'
+    font-family 'PT Sans Narrow', sans-serif
     color white
     background-color #0a3777
     strong
@@ -225,6 +237,8 @@ header
     /.akc-text
         width 65%
         padding-left 20px
+        +md()
+            padding-left 0
         +sm()
             width 100%
         +xs()
@@ -490,6 +504,8 @@ header
             width 100%
     .photo-block
         display flex
+        margin auto
+        max-width 1520px
         +md()
             flex-wrap wrap
             justify-content center
@@ -616,7 +632,6 @@ header
         margin-right 20px
         +xs()
             float unset
-            //max-width 200px
             margin 0 auto 10px auto
     .im-wrap
         flex()
@@ -763,7 +778,7 @@ header
         text-transform none
 footer
     margin-top 60px
-    padding-top 20px
+    padding 20px 0
     background-color #dcdcdc
     .left-bl
         div
@@ -794,11 +809,11 @@ footer
             
     img
         margin-right 20px
-    #indexHtml8
-        margin-top 40px
-        margin-left auto
-        width 113px
-        height 62px
+    // #indexHtml8
+    //     margin-top 40px
+    //     margin-left auto
+    //     width 113px
+    //     height 62px
     .right-bl
         text-align center
         +md()
@@ -813,6 +828,15 @@ footer
         border 7px solid rgba(#1e1e1e, .9)
         .btn
             margin-bottom 30px
+    /.blagod
+        width 100%
+        max-width 550px
+        background url(img/bg_form.png)
+        font-size 35px
+        text-align center
+        border 7px solid transparent
+        +xs()
+            font-size 19px
 .fancybox-slide--html .fancybox-close-small
     background url(img/fancy_close.png) no-repeat center
     padding 0
