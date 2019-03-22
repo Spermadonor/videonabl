@@ -1,6 +1,8 @@
 import 'slick-carousel';
 import '@fancyapps/fancybox';
 import 'lazyYT/lazyYT.js';
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
 import Inputmask from "inputmask";
 function get_timer_794(string_was_794, string_sec_794) {
 	var date_new_was_794 = new Date(string_was_794);
@@ -108,7 +110,7 @@ $('.fansy').click(function() {
 });
 
 
-if (window.matchMedia("(max-width: 670px)").matches) {
+if (window.matchMedia("(max-width: 920px)").matches) {
 	$('.otzivi .content-between .left-block').unwrap();
 	$('.clienti .content-between .left-block').unwrap();
 	$('.clienti .slick-sl .im-wrap').unwrap();

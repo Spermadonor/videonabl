@@ -52,11 +52,14 @@ module.exports = {
           'html-loader',
           {
             loader: 'pug-html-loader',
+            options: {
+              pretty: true
+            }
           }
         ],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
+        test: /\.(png|jpe?g)$/i,
         use: [{
             loader: 'url-loader',
             options: {
@@ -71,6 +74,17 @@ module.exports = {
               cache: '/cachTinify/'
             }
           }
+        ]
+      },
+      {
+        test: /\.(gif)$/i,
+        use: [{
+            loader: 'url-loader',
+            options: {
+              name: "./img/[name].[ext]",
+              limit: 10 * 1024
+            }
+          },
         ]
       },
       {

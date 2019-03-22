@@ -13,7 +13,7 @@ module.exports = {
   ],
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: 'code_23.js',
+    filename: 'code_25.js',
     publicPath: ''
   },
   devServer: {
@@ -106,7 +106,7 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       //filename: "[name].css"
-      filename: "main_23.css"
+      filename: "main_25.css"
     }),
     new webpack.ProvidePlugin({
     $: "jquery",
