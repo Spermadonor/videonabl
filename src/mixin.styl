@@ -1,0 +1,67 @@
+@custom-media --cont (max-width: 1100px)
+@custom-media --extra-large (max-width: 1224px)
+@custom-media --large (max-width: 1024px)
+@custom-media --medium (max-width: 920px)
+@custom-media --small (max-width: 920px)
+@custom-media --extra-small (max-width: 920px)
+@custom-media --min (max-width: 400px)
+
+cont()
+    @media screen and (--cont)
+        {block}
+min()
+    @media screen and (--min)
+        {block}
+xl()
+    @media screen and (--extra-large)
+        {block}
+    
+lg()
+    @media screen and (--large)
+        {block}
+
+md()
+    @media screen and (--medium)
+        {block}
+    
+sm()
+    @media screen and (--small)
+        {block}
+    
+xs()
+    @media screen and (--extra-small)
+        {block}
+
+
+row-flex()
+    display flex
+    flex-wrap wrap
+    margin-left -6px
+    margin-right -6px
+    +lg()
+        margin-left -4.5px
+        margin-right -4.5px
+
+col()
+    margin-left 6px
+    margin-right 6px
+    word-wrap break-word
+    +lg()
+        margin-left 4.5px
+        margin-right 4.5px
+size(n)
+    width "calc(100%/12 * %s - 12px)" %n
+
+cent()
+    display: flex
+    justify-content: center
+    align-items: center
+trans(trans = 0.4s)
+    transition: trans
+    
+pos(x,y = x)
+    left: x
+    top: y
+
+flex()
+    display: flex
